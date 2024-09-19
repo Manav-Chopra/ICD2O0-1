@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Birthyear {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is your birth year?:");
+        int birthyear = scanner.nextInt();
+        System.out.println("What is your age?:");
+        int age = scanner.nextInt();
+        int doublebirthyear = birthyear * 2;
+        int addfive = doublebirthyear + 5; 
+        int multiplyBy50 = addfive * 50; 
+        int addage = multiplyBy50 + age;
+        int subtract250 = addage - 250;
+        double finalresult = subtract250 / 100.0;
+        System.out.println("The result is: " + finalresult);
+        System.out.println("This result represents a value that is related to your age and birth year.");
+    }
+}
