@@ -4,7 +4,7 @@ class Cookies {
         System.out.print("It's possible Sanjay can distribute " + 12);
         System.out.println(" cookies for each bowl.");
         System.out.println("Sanjay has 6 bowls for 144 cookies.");
-        double num;
+        int num;
         num = 144/6;
         System.out.println("The number of cookies per bowl is:" + num);
         System.out.println("There are " + 28 + " people in this room.");
