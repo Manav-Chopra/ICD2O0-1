@@ -1,8 +1,8 @@
 class Circle {
       public static void main(String[] args) {
-        double circ;
-        double rad = 3;
-        circle = 2 * Math.PI * rad;
-        System.out.println("The circumference of a circle of radius " + rad + " is " + circle);
+        double circle;
+        double radius = 3;
+        circle = 2 * Math.PI * radius;
+        System.out.println("The circumference of a circle of radius " + radius + " is " + circle);
       }
 }
